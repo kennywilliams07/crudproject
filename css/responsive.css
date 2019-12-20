@@ -1,0 +1,39 @@
+@media screen and (max-width: 990px) {
+
+/*********** TABLE *************/
+
+    .table-responsive {
+        max-width: 623px !important;
+    }
+
+    #add-btn {
+        margin-left: 36%;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+
+    #add-btn {
+        margin-left: 29%;
+    }
+
+}
+
+
+@media screen and (max-width: 414px) {
+
+/*********** TABLE *************/
+
+.table-responsive {
+    max-width: 300px;
+}
+
+
+
+
+
+
+
+
+}
