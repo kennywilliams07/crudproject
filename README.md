@@ -17,4 +17,44 @@
 
 # Bootstrap 4 was also used for the modals and table.
 
-The site itself is very simple... Simply type "localhost" into your address bar, and click on "crudproject" within the index. From there, the data will be displayed into a table, with an edit and delete button. You may also add your own data by clikcing the "Add Artist" button. If you refresh the table within the database, you'll notice that the data will be edited, deleted, or added depending on what you've done. 
+##Set up
+
+First thing, make a directory for the project:
+<blockquote>
+mkdir (directory name)
+</blockquote>
+
+Secondly, change into the project directory:
+<blockquote>
+cd (directory name)
+</blockquote>
+
+Clone the project from my GitHub:
+<blockquote>
+git clone https://github.com/kennywilliams07/crudproject
+</blockquote>
+
+Install MAMP from https://www.mamp.info/en/
+
+Once MAMP is installed, navigate to your preferences to find your port.
+
+Be sure to have SQL Pro or HeidiSQL installed for Mac or Windows respectively.
+
+Connect to the database:
+<blockquote>
+Host: 127.0.0.1
+Username: root
+Password: root
+Port: (MsSql port that will also be found in your MAMP Preferences)
+</blockquote>
+
+##Once connected:
+
+Once your connected to the database, you'll see a table named "albums_2019". Connect to that table, and you'll see the data.
+
+##Using the Application
+
+In your address bar, type:"localhost:(your port)" and select the project from your index.
+
+You should see a form field for adding your own artist and album, and a table displaying the same data from the SQL table with an edit and delete button. From there, all you need to do is enjoy.
+
