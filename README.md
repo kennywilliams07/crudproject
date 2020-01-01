@@ -19,12 +19,21 @@
 
 ##Set up
 
-First thing, make a directory for the project:
+
+First thing, install MAMP:
+Install MAMP from https://www.mamp.info/en/
+
+Once MAMP is installed, change into the htdocs directory
 <blockquote>
-mkdir (directory name)
+cd /MAMP/htdocs
 </blockquote>
 
-Secondly, change into the project directory:
+From there, make a new directory for the project:
+<blockquote>
+mkdir (project name)
+</blockquote>
+
+Change into the project directory:
 <blockquote>
 cd (directory name)
 </blockquote>
@@ -33,10 +42,6 @@ Clone the project from my GitHub:
 <blockquote>
 git clone https://github.com/kennywilliams07/crudproject
 </blockquote>
-
-Install MAMP from https://www.mamp.info/en/
-
-Once MAMP is installed, navigate to your preferences to find your port.
 
 Be sure to have SQL Pro or HeidiSQL installed for Mac or Windows respectively.
 
