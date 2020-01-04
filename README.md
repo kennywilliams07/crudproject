@@ -28,16 +28,6 @@ Once MAMP is installed, change into the htdocs directory
 cd /MAMP/htdocs
 </blockquote>
 
-From there, make a new directory for the project:
-<blockquote>
-mkdir (project name)
-</blockquote>
-
-Change into the project directory:
-<blockquote>
-cd (directory name)
-</blockquote>
-
 Clone the project from my GitHub:
 <blockquote>
 git clone https://github.com/kennywilliams07/crudproject
@@ -53,7 +43,7 @@ Password: root
 Port: (MsSql port that will also be found in your MAMP Preferences)
 </blockquote>
 
-##Once connected:
+#The Database's name once you've connected will be 'php_project'
 
 Once your connected to the database, you'll see a table named "albums_2019". Connect to that table, and you'll see the data.
 
